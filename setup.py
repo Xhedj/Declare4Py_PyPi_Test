@@ -11,7 +11,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\\n" + fh.read()
 
 setup(
-    name="my_package_name",
+    name="declare4py",
     version='{{VERSION_PLACEHOLDER}}',
     author="Ivan",
     author_email="johndoe@mail.com",

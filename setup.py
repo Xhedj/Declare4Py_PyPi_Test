@@ -20,7 +20,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    package_dir={'': 'src'},
+    package_dir={'src': 'Declare4Py'},
     install_requires=['numpy', 'pandas', 'pm4py', 'matplotlib', 'boolean.py', 'clingo'],
     keywords=['python', 'bpm', 'declare', 'process-mining', 'rule-mining', 'business-process-management', 'declarative-process-models'],
     classifiers=[
